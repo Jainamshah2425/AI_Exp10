@@ -268,8 +268,5 @@ matplotlib.use('TkAgg')
 
 ---
 
-## ✉️ Questions?
-
-This project was created to demonstrate deep learning concepts from foundational research papers. Feel free to modify and extend it for your own learning!
-
+## ✉️ Q
 **Good luck with your school project! 🎓🚀**
