@@ -1,6 +1,6 @@
 # MNIST Deep Learning - Flaw Demonstration & Fix
 
-## 🎓 School AI Project: Understanding Deep Neural Network Training Issues
+## Understanding Deep Neural Network Training Issues
 
 This project demonstrates and fixes the training difficulties in deep neural networks as discussed in the seminal paper:
 
@@ -36,7 +36,7 @@ Deep neural networks suffer from **vanishing gradients** when:
 
 ---
 
-## 🚨 Intentional Flaws in the Flawed Model
+## Flaws in the Flawed Model
 
 | Flaw | Implementation | Impact |
 |------|----------------|--------|
@@ -48,7 +48,7 @@ Deep neural networks suffer from **vanishing gradients** when:
 
 ---
 
-## ✅ Fixes Applied in the Improved Model
+##  Improved Model
 
 | Fix | Implementation | Benefit |
 |-----|----------------|---------|
@@ -145,7 +145,7 @@ This creates detailed visualization showing:
 
 ---
 
-## 📊 Expected Results
+## Expected Results
 
 ### Training Performance
 
@@ -172,7 +172,7 @@ The visualizations will clearly show:
 
 ---
 
-## 🎯 Key Takeaways for Your School Project
+## 🎯 Key Takeaways 
 
 ### Problems Demonstrated
 1. ❌ **Vanishing Gradients**: Early layers don't learn (gradients ~1e-8)
@@ -215,7 +215,7 @@ URL: http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf
 
 ---
 
-## 🎓 For Teachers/Grading
+## 
 
 ### What This Project Demonstrates
 
@@ -237,16 +237,7 @@ URL: http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf
 
 ---
 
-## 💡 Extending This Project
 
-Want to explore more? Try:
-
-1. **Add Batch Normalization**: Further stabilize training
-2. **Try Different Architectures**: CNNs for better accuracy
-3. **Compare More Initializations**: He initialization, LeCun initialization
-4. **Test Other Datasets**: CIFAR-10, Fashion-MNIST
-5. **Implement Dropout**: Add regularization
-6. **Learning Rate Schedules**: Decay learning rate over time
 
 ---
 
@@ -273,9 +264,7 @@ matplotlib.use('TkAgg')
 
 ---
 
-## 📝 License
 
-This is an educational project. The code is provided as-is for learning purposes.
 
 ---
 
