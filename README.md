@@ -241,25 +241,7 @@ URL: http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf
 
 ---
 
-## 🐛 Troubleshooting
 
-### Issue: MNIST download fails
-```powershell
-# Manually download to:
-C:\Users\<YourUsername>\.keras\datasets\mnist.npz
-```
-
-### Issue: GPU memory error
-```python
-# In train.py, reduce batch size:
-BATCH_SIZE = 64  # Instead of 128
-```
-
-### Issue: Plots don't show
-```python
-# Make sure matplotlib backend works:
-import matplotlib
-matplotlib.use('TkAgg')
 ```
 
 ---
@@ -267,6 +249,3 @@ matplotlib.use('TkAgg')
 
 
 ---
-
-## ✉️ Q
-**Good luck with your school project! 🎓🚀**
