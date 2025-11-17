@@ -14,14 +14,14 @@ This project demonstrates and fixes the training difficulties in deep neural net
 
 This project implements **two models** to classify handwritten digits (MNIST dataset):
 
-1. **🔴 Flawed Model** - Intentionally implements bad practices that cause training difficulties
-2. **🟢 Improved Model** - Applies fixes from the Glorot & Bengio paper
+1. ** Flawed Model** - Implements old and bad practices that cause training difficulties
+2. ** Improved Model** - Applies fixes from the Glorot & Bengio paper
 
 The goal is to demonstrate how poor initialization, activation functions, and preprocessing lead to vanishing gradients and slow convergence, and how to fix these issues.
 
 ---
 
-## 🔍 Research Paper Summary
+##  Research Paper Summary
 
 ### Main Problem Identified
 Deep neural networks suffer from **vanishing gradients** when:
@@ -66,7 +66,7 @@ Deep neural networks suffer from **vanishing gradients** when:
 mnist_flaw_fixing/
 ├── models/
 │   ├── __init__.py
-│   ├── flawed_model.py      # Model with intentional flaws
+│   ├── flawed_model.py      # Model with  flaws
 │   └── improved_model.py    # Model with fixes applied
 ├── results/                  # Generated plots and saved models
 │   ├── training_comparison.png
@@ -85,7 +85,7 @@ mnist_flaw_fixing/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Install Dependencies
 
@@ -172,19 +172,19 @@ The visualizations will clearly show:
 
 ---
 
-## 🎯 Key Takeaways 
+##  Key Takeaways 
 
 ### Problems Demonstrated
-1. ❌ **Vanishing Gradients**: Early layers don't learn (gradients ~1e-8)
-2. ❌ **Sigmoid Saturation**: Outputs stuck near 0 or 1
-3. ❌ **Poor Convergence**: Takes forever to train, never reaches good accuracy
-4. ❌ **Unstable Training**: High learning rate causes oscillation
+1.  **Vanishing Gradients**: Early layers don't learn (gradients ~1e-8)
+2.  **Sigmoid Saturation**: Outputs stuck near 0 or 1
+3.  **Poor Convergence**: Takes forever to train, never reaches good accuracy
+4.  **Unstable Training**: High learning rate causes oscillation
 
 ### Solutions Implemented
-1. ✅ **Xavier/Glorot Initialization**: Mathematically derived weight scaling
-2. ✅ **ReLU Activation**: Simple, effective, no saturation
-3. ✅ **Normalization**: Always scale inputs to reasonable range
-4. ✅ **Adam Optimizer**: Automatically adjusts learning rate per parameter
+1.  **Xavier/Glorot Initialization**: Mathematically derived weight scaling
+2.  **ReLU Activation**: Simple, effective, no saturation
+3.  **Normalization**: Always scale inputs to reasonable range
+4.  **Adam Optimizer**: Automatically adjusts learning rate per parameter
 
 ### For Your Presentation
 - Show the **flawed model** struggling (accuracy ~75-80%)
@@ -220,32 +220,18 @@ URL: http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf
 ### What This Project Demonstrates
 
 **Understanding (40%):**
-- Identifies specific flaws from research paper ✅
-- Explains vanishing gradient problem ✅
-- Understands mathematical foundations (Glorot initialization) ✅
+- Identifies specific flaws from research paper 
+- Explains vanishing gradient problem 
+- Understands mathematical foundations (Glorot initialization) 
 
 **Implementation (40%):**
-- Correctly implements flawed baseline ✅
-- Applies fixes systematically ✅
-- Includes comprehensive analysis tools ✅
-- Professional code structure ✅
+- Correctly implements flawed baseline 
+- Applies fixes systematically 
+- Includes comprehensive analysis tools 
+- Professional code structure 
 
 **Analysis (20%):**
-- Visualizes results effectively ✅
-- Quantifies improvements ✅
-- Draws correct conclusions ✅
+- Visualizes results effectively 
+- Quantifies improvements 
+- Draws correct conclusions 
 
----
-
-
-
----
-
-
-```
-
----
-
-
-
----
